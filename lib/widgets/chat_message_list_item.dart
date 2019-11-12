@@ -28,6 +28,7 @@ class ChatMessageListItem extends StatelessWidget {
       leading: CircleAvatar(child: Text(chatMessage.name.toUpperCase()[0])),
       title: Text(chatMessage.name, textAlign: TextAlign.left),
       subtitle: Text(chatMessage.text, textAlign: TextAlign.left),
+      trailing: Text(chatMessage.hoursMinute,style: TextStyle(fontSize: 7.0, fontWeight: FontWeight.bold),),
     );
   }
 }
