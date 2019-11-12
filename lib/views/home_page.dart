@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: Text('Chatbot'),
+        title: Text('Obrabo'),
       ),
       body: Column(
         children: <Widget>[
