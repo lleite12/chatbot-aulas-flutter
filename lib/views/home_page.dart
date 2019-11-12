@@ -102,7 +102,7 @@ class _HomePageState extends State<HomePage> {
         decoration: InputDecoration(
           hintText: "Enviar mensagem",
           border: OutlineInputBorder(
-              borderRadius: BorderRadius.all(Radius.circular(10.0)),
+              borderRadius: BorderRadius.all(Radius.circular(30.0)),
               borderSide: BorderSide(color: Colors.black)),
         ),
       ),
